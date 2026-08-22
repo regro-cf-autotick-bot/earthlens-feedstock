@@ -1,5 +1,5 @@
 {% set python_min = "3.11" %}
-{% set version = "0.14.0" %}
+{% set version = "0.17.0" %}
 
 package:
   name: earthlens-split
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/serapeum-org/earthlens/archive/{{ version }}.tar.gz
-  sha256: fa40cd603517b5ad039a17b8495aee812befd74696febfb241342968e1a3798d
+  sha256: 61852f09f115c479bc5b530e89d074151d8c27b7d6f3e6fa47d69b5704a06ccc
 
 build:
   number: 0
